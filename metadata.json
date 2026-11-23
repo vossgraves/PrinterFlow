@@ -1,0 +1,6 @@
+{
+  "name": "InkFlow",
+  "description": "Material 3 Expressive IPP & LEDM printer manager for HP Ink Tank 410/419 with pause/resume spooling, Wi-Fi fallback guard, and hardware diagnostics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

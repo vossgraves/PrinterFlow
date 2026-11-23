@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">InkFlow</string>
+    <string name="app_tagline">IPP &amp; LEDM Spooler for Ink Tank 410 / 419</string>
+
+    <!-- Navigation -->
+    <string name="nav_queue">Queue</string>
+    <string name="nav_print">Print</string>
+    <string name="nav_diagnostics">Diagnostics</string>
+    <string name="nav_printers">Printers</string>
+
+    <!-- Network Guard -->
+    <string name="net_wifi_bound">Wi-Fi Bound</string>
+    <string name="net_wifi_direct">Wi-Fi Direct Ready</string>
+    <string name="net_mobile_fallback_title">Switched to Mobile Data</string>
+    <string name="net_mobile_fallback_body">Active prints safely paused in local spooler. Reconnect to printer Wi-Fi to resume.</string>
+    <string name="net_offline_title">No Network Connection</string>
+    <string name="net_offline_body">Jobs stay cached locally on disk until Wi-Fi returns.</string>
+    <string name="net_open_wifi">Wi-Fi Settings</string>
+    <string name="net_force_bind_label">Force Wi-Fi Socket Binding</string>
+    <string name="net_force_bind_desc">Routes IPP/LEDM packets through Wi-Fi even when mobile data is active or Wi-Fi Direct has no internet.</string>
+    <string name="net_auto_resume_label">Auto-Resume on Wi-Fi Return</string>
+    <string name="net_auto_resume_desc">Automatically restarts Wi-Fi-paused jobs when printer LAN reconnects.</string>
+
+    <!-- Queue Controls -->
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_unblock">Unblock &amp; Retry</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Remove</string>
+    <string name="action_pause_all">Pause All</string>
+    <string name="action_resume_all">Resume All</string>
+    <string name="action_clear_done">Clear Done</string>
+    <string name="queue_empty_title">Spooler Clear</string>
+    <string name="queue_empty_body">Pick a PDF or photo below, or share any file from another app to print with full pause &amp; resume control.</string>
+
+    <!-- Print / File Intake -->
+    <string name="pick_pdf">Pick PDF</string>
+    <string name="pick_photo">Pick Photo</string>
+    <string name="send_to_queue">Queue &amp; Print</string>
+    <string name="queue_paused">Add Paused</string>
+    <string name="format_auto">Auto-Rasterize (PWG / JPEG)</string>
+
+    <!-- Diagnostics -->
+    <string name="diag_print_test_page">Print Quality Diagnostic Page</string>
+    <string name="diag_clean_printhead">Clean Printheads (LEDM)</string>
+    <string name="diag_align_printhead">Align Printheads</string>
+    <string name="diag_open_ews">Open Printer EWS Console</string>
+    <string name="diag_probe_now">Run Live Probe</string>
+    <string name="diag_preview_pattern">Preview Nozzle Sheet</string>
+
+    <!-- Printers -->
+    <string name="printer_scan_mdns">Scan LAN (mDNS)</string>
+    <string name="printer_wifi_direct_preset">Wi-Fi Direct (192.168.223.1)</string>
+    <string name="printer_add_manual">Add by IP</string>
+</resources>
